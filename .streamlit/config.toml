@@ -1,0 +1,15 @@
+# Pinned so the app does not inherit the operator's OS light/dark preference.
+# The custom panels in app.py set explicit colours; if the base theme flips to
+# light, that text renders light-on-light and the teleprompter is unreadable.
+[theme]
+base = "dark"
+primaryColor = "#3B82F6"
+backgroundColor = "#0D1117"
+secondaryBackgroundColor = "#161B22"
+textColor = "#E8EDF2"
+
+[server]
+maxUploadSize = 2048
+
+[browser]
+gatherUsageStats = false

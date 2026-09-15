@@ -1,0 +1,22 @@
+# Media never belongs in this repo. Source footage, narration takes and rendered
+# output all stay local — the tool is what is versioned, not the recordings.
+work/
+*.mp4
+*.mov
+*.m4v
+*.mkv
+*.webm
+*.wav
+*.aiff
+*.aif
+*.m4a
+*.mp3
+*.caf
+*.jpg
+*.png
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store

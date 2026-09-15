@@ -1,0 +1,21 @@
+SCENE 1 — OPENING
+[VISUAL: title card]
+
+Welcome. Over the next few minutes I will walk through what we built, what we
+found, and what it means for the business.
+
+SCENE 2 — WHAT WE BUILT
+[VISUAL: architecture diagram]
+
+The foundation is a layered model. Raw data lands untouched, a conformed layer
+resolves types and naming, and a serving layer exposes the metrics the business
+actually asks for.
+
+Each layer is tested independently, so a problem is caught where it is introduced
+rather than three steps downstream.
+
+SCENE 3 — CLOSE
+[VISUAL: summary card]
+
+Everything shown here runs on live data today. The next step is to widen the set
+of sources feeding it.
